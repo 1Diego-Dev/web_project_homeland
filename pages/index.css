@@ -1,4 +1,6 @@
 @import url(../vendor/normalize.css);
+
+/* bloques */
 @import url(../blocks/body.css);
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
@@ -8,18 +10,4 @@
 @import url(../blocks/footer.css);
 
 /* fuentes */
-@font-face {
-  font-family: "Inter";
-  src: url(../vendor/fonts/web/Inter-Regular.woff2) format("woff2");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Inter";
-  src: url(../vendor/fonts/web/Inter-Bold.woff2) format("woff2");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Inter";
-  src: url(../vendor/fonts/web/Inter-Black.woff2) format("woff2");
-  font-weight: 900;
-}
+@import url(../vendor/fonts.css);
