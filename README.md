@@ -18,3 +18,7 @@
 - **Tipografía personalizada:** Se utiliza la fuente "Inter" para una apariencia moderna y legible.
 - **Accesibilidad:** Uso de etiquetas semánticas y atributos `alt` en imágenes.
 - **Estructura modular:** El CSS está organizado en bloques independientes para facilitar el mantenimiento y la escalabilidad.
+
+## Link de la página:
+
+- https://1Diego-Dev.github.io/web_project_homeland
