@@ -1,0 +1,150 @@
+.intro__content {
+  width: 100% - 32px;
+  margin: 64px 16px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.intro__title {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  width: auto;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.intro__text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 32px 0 0;
+  box-sizing: border-box;
+}
+
+.intro__quote {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 40px 0 10px;
+  box-sizing: border-box;
+}
+.intro__author {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    margin: 90px 0;
+    box-sizing: border-box;
+  }
+  .intro__content {
+    width: calc(100% - 48px);
+    margin: 0 24px;
+    box-sizing: border-box;
+  }
+  .intro__title {
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    width: 706px;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .intro__text {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 32px 0 0 0;
+    box-sizing: border-box;
+  }
+  .intro__quote {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+  }
+  .intro__author {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 1000px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px 0;
+    width: 984px;
+    box-sizing: border-box;
+  }
+  .intro__content {
+    width: calc(100% - auto);
+    padding: 0 auto;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 1280px) {
+  .intro {
+    width: 984px;
+    box-sizing: border-box;
+  }
+
+  .intro__content {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .intro__title {
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    width: 830px;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .intro__text {
+    margin: 32px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 163%;
+    box-sizing: border-box;
+  }
+
+  .intro__quote {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 39px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .intro__author {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    align-self: flex-end;
+    box-sizing: border-box;
+  }
+}
