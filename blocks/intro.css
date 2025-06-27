@@ -1,6 +1,11 @@
 .intro__content {
   width: calc(100% - 32px);
-  margin: 64px 16px 0;
+  margin: 64px 16px 38px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
 }
 
 .intro__title {
@@ -11,6 +16,10 @@
   width: 100%;
   margin: 0;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
 }
 
 .intro__text {
@@ -20,6 +29,10 @@
   line-height: 163%;
   margin: 32px 0 0;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
 }
 
 .intro__quote {
@@ -29,6 +42,10 @@
   line-height: 30px;
   margin: 40px 0 10px;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
 }
 .intro__author {
   font-family: "Inter";
@@ -38,17 +55,29 @@
   text-align: right;
   margin: 0;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 744px) {
   .intro {
     margin: 90px 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
   .intro__content {
     width: calc(100% - 48px);
     margin: 0 24px;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
   .intro__title {
     font-family: "Inter";
@@ -58,6 +87,10 @@
     width: 706px;
     box-sizing: border-box;
     margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
   .intro__text {
     font-family: "Inter";
@@ -66,6 +99,10 @@
     line-height: 163%;
     margin: 32px 0 0 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
   .intro__quote {
     font-family: "Inter";
@@ -75,6 +112,10 @@
     margin-top: 50px;
     margin-bottom: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
   .intro__author {
     font-family: "Inter";
@@ -84,33 +125,60 @@
     text-align: right;
     margin: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
 }
 @media (min-width: 1000px) {
   .intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 90px 0;
     width: 984px;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
   .intro__content {
     width: auto;
     padding: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
 }
 @media (min-width: 1280px) {
   .intro {
     width: 984px;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
 
   .intro__content {
     width: 100%;
     margin: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
 
   .intro__title {
@@ -120,6 +188,10 @@
     width: 830px;
     box-sizing: border-box;
     margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
   .intro__text {
     margin: 32px 0 0 0;
@@ -127,6 +199,10 @@
     font-weight: 400;
     line-height: 163%;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
 
   .intro__quote {
@@ -136,6 +212,10 @@
     margin-top: 39px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
 
   .intro__author {
@@ -144,5 +224,9 @@
     line-height: 34px;
     align-self: flex-end;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
 }
