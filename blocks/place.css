@@ -74,6 +74,8 @@
 .place__button {
   width: 289px;
   height: 48px;
+  text-align: center;
+  padding: 15px 0;
 
   font-family: "Inter";
   font-weight: 600;
