@@ -1,10 +1,6 @@
 .footer {
   margin: 64px 0 25px;
   box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
 }
 .footer__text {
   font-family: "Inter";
@@ -15,20 +11,12 @@
   width: 194px;
   margin: 0;
   box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
   .footer {
     margin: 0;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
   }
   .footer__text {
     font-family: "Inter";
@@ -38,10 +26,6 @@
     text-align: center;
     margin: 88px 0 24px 0;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
   }
 }
 
@@ -49,10 +33,6 @@
   .footer {
     margin-top: 92px;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
   }
   .footer__text {
     font-size: 14px;
@@ -61,9 +41,5 @@
     text-align: center;
     margin: 0 0 10px;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
   }
 }

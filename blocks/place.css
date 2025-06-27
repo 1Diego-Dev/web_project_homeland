@@ -159,7 +159,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    letter-spacing: 0%;
   }
 
   .place__paragraph {
@@ -172,9 +171,6 @@
   .place__paragraph:nth-of-type(1) {
     margin-top: 0;
   }
-  /* .place__paragraph_padding_off {
-    padding-top: 0 !important;
-  } */
   .place a {
     text-decoration: none;
   }
